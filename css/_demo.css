@@ -1,0 +1,21 @@
+header {
+	padding:20px;
+}
+header h1 { /* Nesting */
+	font-size:24px;
+}
+header h1 a {
+	text-decoration:none;
+}
+header h1 a:hover { /* Pseudo-classes */
+	text-decoration:underline;
+}
+header h1 a:hover span {
+	color:red;
+}
+header img {
+	border:none;
+}
+header img.glow { /* Classes */
+	border:solid 1px blue;
+}
